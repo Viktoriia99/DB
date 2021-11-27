@@ -1,0 +1,137 @@
+.wrapper {
+	width: 100%;
+}
+
+ul.social-network {
+	list-style: none;
+	margin: 0;
+}
+
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+footer ul.link-list li a{
+	color: #fff;
+}
+
+footer ul.link-list li a:hover {
+	color: #eee;
+}
+
+footer .widgetheading {
+	position: relative;
+}
+
+footer .widget .social-network {
+	position: relative;
+}
+
+
+#bottom .widget .widgetheading span, aside .widget .widgetheading span, footer .widget .widgetheading span {	
+	position: absolute;
+	width: 60px;
+	height: 1px;
+	bottom: -1px;
+	right:0;
+}
+
+footer .widget .flickr_badge {
+    width: 100%;
+}
+footer .widget .flickr_badge img {
+    margin: 0 9px 5px 0;
+}
+
+footer .col-lg-1, footer .col-lg-2, footer .col-lg-3, footer .col-lg-4, footer .col-lg-5, footer .col-lg-6, 
+	footer .col-lg-7, footer .col-lg-8, footer .col-lg-9, footer .col-lg-10, footer .col-lg-11, footer .col-lg-12 {
+		margin-bottom: 3px;
+}
+
+.sub-footer ul.social-network {
+	float: left;
+}
+
+footer ul.link-list li a{
+	color: #000;
+}
+footer ul.link-list li a:hover {
+	color: #777;
+}
+
+footer .widgetheading {
+	position: relative;
+}
+
+footer .widget .social-network {
+	position: relative;
+}
+
+
+.bottom .widget .widgetheading span, aside .widget .widgetheading span, footer .widget .widgetheading span {	
+	position: absolute;
+	width: 60px;
+	height: 1px;
+	bottom: -1px;
+	right: 0;
+
+}
+
+footer .widget .flickr_badge {
+    width: 100%;
+}
+footer .widget .flickr_badge img {
+    margin: 0 5px 3px 0;
+}
+
+footer {
+	padding: 5px 0 0 0;
+	color: #080808;
+	background: #f8f8f8;
+	border-radius: 0.5em;
+	border-top: 2px solid #f0f0f0;
+}
+
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+	color: #000;
+}
+
+footer h5 a:hover, footer a:hover {
+	text-decoration: none;
+}
+
+.sub-footer{
+	text-shadow: none;
+	color: #f5f5f5;
+	padding: 0;
+	padding-top: 5px;
+	margin: 5px 0 0 0;
+	background: #101010;
+}
+
+.sub-footer p{
+	margin: 0;
+	padding: 0;
+}
+
+.sub-footer span{
+	color: #f5f5f5;
+}
+
+.copyright {
+	text-align: left;
+	font-size: 12px;
+}
+
+.sub-footer ul.social-network {
+	float: right;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.content {
+	min-height: calc(100vh - 235px);
+}

@@ -1,0 +1,242 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <h1 align="center">Выводите результаты запросов ниже:</h1>
+
+    <div align="center" class="jumbotron">
+        <h2>Задание 1</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>book_id</th>
+                    <th>title</th>
+                    <th>author</th>
+                    <th>price</th>
+                    <th>amount</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for book in books1 %}
+                    <tr>
+                        <td>{{ book.book_id }}</td>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.author }}</td>
+                        <td>{{ book.price }}</td>
+                        <td>{{ book.amount }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div align="center" class="jumbotron">
+        <h2>Задание 2</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>author</th>
+                    <th>title</th>
+                    <th>price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for book in books2 %}
+                    <tr>
+                        <td>{{ book.author }}</td>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.price }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div align="center" class="jumbotron">
+        <h2>Задание 3</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Автор</th>
+                    <th>Название</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for book in books3 %}
+                    <tr>
+                        <td>{{ book.Автор }}</td>
+                        <td>{{ book.Название }}</td>
+                    </tr>
+
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div align="center" class="jumbotron">
+        <h2>Задание 4</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>title</th>
+                    <th>amount</th>
+                    <th>pack</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for book in books4 %}
+                    <tr>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.amount }}</td>
+                        <td>{{ book.pack }}</td>
+                    </tr>
+
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div align="center" class="jumbotron">
+        <h2>Задание 5</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>author</th>
+                    <th>title</th>
+                    <th>price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for book in books5 %}
+                    <tr>
+                        <td>{{ book.author }}</td>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.price }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div align="center" class="jumbotron">
+        <h2>Задание 6</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>title</th>
+                    <th>author</th>
+                    <th>price</th>
+                    <th>amount</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for book in books6 %}
+                    <tr>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.author }}</td>
+                        <td>{{ book.price }}</td>
+                        <td>{{ book.amount }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div align="center" class="jumbotron">
+        <h2>Задание 7</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>title</th>
+                    <th>author</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for book in books7 %}
+                    <tr>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.author }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div align="center" class="jumbotron">
+        <h2>Задание 8</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>title</th>
+                    <th>author</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for book in books8 %}
+                    <tr>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.author }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div align="center" class="jumbotron">
+        <h2>Задание 9</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>title</th>
+                    <th>author</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for book in books9 %}
+                    <tr>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.author }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div align="center" class="jumbotron">
+        <h2>Задание 10</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>amount</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for book in books10 %}
+                    <tr>
+                        <td>{{ book.amount }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
